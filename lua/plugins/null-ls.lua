@@ -13,7 +13,7 @@ return {
 				-- null_ls.builtins.diagnostics.eslint_d,
 				require("none-ls.code_actions.eslint"),
 				null_ls.builtins.formatting.prettierd.with({
-					filetypes = { "javascript", "typescript", "html", "css", "json", "lua" },
+					filetypes = { "javascript", "typescript", "html", "css", "json", "lua", "vue" },
 				}),
 			},
 		})
